@@ -1,0 +1,3 @@
+start_vrpn
+
+./scenograph/scene_master /sw/config/mlib/cave_1_multicast.conf

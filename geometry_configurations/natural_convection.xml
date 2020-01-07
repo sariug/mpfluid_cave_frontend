@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Global_Configuration>
+    <main_bounding_box>0 1 0 1.0 0 1</main_bounding_box>
+    <T_inf>300</T_inf>
+    <mesh_s>2 2 2</mesh_s>
+    <mesh_r>2 2 2</mesh_r> 
+    <mesh_b>8 8 8</mesh_b>
+    <mesh_depth>3</mesh_depth>
+</Global_Configuration>
+<Geometries>
+</Geometries>
+<Boundary_Conditions>
+</Boundary_Conditions>
+<Wall_Boundaries>
+    <Wall>
+      	<name>EAST</name>
+        <type>SOLID</type>
+        <velocity>0.0 0.0 0</velocity>
+        <temperature>305</temperature>
+    </Wall>
+    <Wall>
+	<name>WEST</name>
+	<type>SOLID</type>
+	<velocity>0.0 0.0 0</velocity>
+	<temperature>295</temperature>
+    </Wall>
+    <Wall>
+     	<name>NORTH</name>
+        <type>SOLID</type>
+        <velocity>0.0 0.0 0</velocity>
+        <temperature>300</temperature>
+    </Wall>
+    <Wall>
+      	<name>SOUTH</name>
+        <type>SOLID</type>
+        <velocity>0.0 0.0 0</velocity>
+        <temperature>300</temperature>
+    </Wall>
+    <Wall>
+      	<name>TOP</name>
+        <type>SOLID</type>
+        <velocity>0.0 0.0 0</velocity>
+        <temperature>300</temperature>
+    </Wall>
+    <Wall>
+      	<name>BOTTOM</name>
+        <type>SOLID</type>
+        <velocity>0.0 0.0 0</velocity>
+        <temperature>300</temperature>
+    </Wall>
+</Wall_Boundaries>
+<Cubemap>g.jpg floor.jpg</Cubemap>
