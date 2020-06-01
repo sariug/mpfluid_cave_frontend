@@ -1,5 +1,8 @@
 # mpFluid CAVE Front End
 
+[![Code Grade](https://www.code-inspector.com/project/8740/status/svg)](https://www.code-inspector.com/public/project/136/mygithubproject/dashboard)
+
+
 This code is a piece of code implemented during my master's thesis at TU Munich : 
 
 *Interactive Exploration and Computational
